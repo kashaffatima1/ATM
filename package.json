@@ -1,0 +1,23 @@
+{
+  "name": "kf2-atm",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kashaf",
+  "license": "MIT",
+  "description": "An ATM with typescript, node.js & inquirer",
+  "dependencies": {
+    "inquirer": "^9.3.2",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
